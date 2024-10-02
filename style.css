@@ -9,10 +9,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    font-family: "Kode Mono", monospace;
+    padding-top:27px;
+/*     font-family: "Kode Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 400; */
+    font-size: 24px;
     font-style: normal;
     background-color: #1d1e1e;
     gap: 10px;
