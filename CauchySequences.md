@@ -2,9 +2,9 @@
 
 ### Basics:
 
-**Definition:** A sequence $\{a_n\}$ is called cauchy sequence iff $\forall \varepsilon>0$ $\exists N \in \mathbb{N}$ such that if $m,n \geq N$ then $|a_n-a_m|< \varepsilon$.
+**Definition:** A sequence $\\{a_n\\}$ is called cauchy sequence iff $\forall \varepsilon>0$ $\exists N \in \mathbb{N}$ such that if $m,n \geq N$ then $|a_n-a_m|< \varepsilon$.
 
-**Example:** $\{\frac{1}{n}\}_{n\geq 1}$ is cauchy sequence.
+**Example:** $\\{\frac{1}{n}\\}_{n\geq 1}$ is cauchy sequence.
 
 **Proof:** Take $\varepsilon >0$ and we need to find $N \in \mathbb{N}$. Now, for $|\frac{1}{n}-\frac{1}{m}|<\varepsilon$, we need the $N$. But see that $|\frac{1}{n}-\frac{1}{m}|<|\frac{1}{n}|+|\frac{1}{m}|<\frac{2}{n}$(wlog say $m>n$). So, if we take $\frac{2}{n}<\varepsilon \Rightarrow n \geq \lceil \frac{2}{\varepsilon} \rceil=N$ we are through. And as $m>n \geq N$ we have $m,n \geq N$.
 
